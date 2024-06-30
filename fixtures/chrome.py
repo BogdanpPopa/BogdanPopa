@@ -10,4 +10,4 @@ def chrome_browser():
     service = Service(ChromeDriverManager().install())
     browser = Chrome(service=service)
     yield browser
-    browser.quit()
+    #browser.quit()
